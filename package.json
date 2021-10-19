@@ -1,0 +1,20 @@
+{
+    "name": "osinfocli",
+    "version": "1.0.0",
+    "description": "a cli tool to show device info",
+    "main": "ostest.js",
+    "type": "module",
+    "bin": {
+        "osinfo": "ostest.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["osinfo", "cpuinfo", "memoryinfo", "deviceinfo"],
+    "author": "sadat-saim",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "commander": "^8.2.0"
+    }
+}
